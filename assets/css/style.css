@@ -1,0 +1,53 @@
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 71px;
+    align-items: center;
+    background-color: palevioletred;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+/* .nav-items a {
+    color: white;
+    text-decoration: none;
+} */
+
+.text-white{
+    color: white;
+}
+
+.hero{
+   
+   background-color: #E1D2D8;
+    /* background-position: center; */
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+
+    .hero-barner{
+background-image: url(../images/green-pink-yellow-flowers-wooden-circular-frame-against-white-backdrop.jpg);
+    }
+}
+.overlay{
+    height: ;
+}
+.title{
+    font-size: 60px;
+}
+.subtitle{
+    font-size: 16px;
+}
