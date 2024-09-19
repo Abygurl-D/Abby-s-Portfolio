@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./scripts/index.js" defer></script>
 </head>
@@ -45,13 +46,10 @@
                 blind
                 texts.
             </p>
-            <button class="btn1">
-                HIRE ME
-            </button>
-            <button class="btn2">
-                DOWNLOAD CV
-            </button>
-               
+            <div class="btns">
+                <button class="btn1 pulsate-fwd ">Hire Me</button>
+                <button class="btn2">Download CV</button>
+            </div>
         </div>
     </section>
     <!-- end of hero section -->
@@ -183,7 +181,81 @@
             </section>
     </section>
 
+    
+        
+      <!-- 
+        - #PROJECT
+      -->
 
+      <section class="section-project">
+          <div class="s-title">
+            <div>
+              <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+              <p class="section-text">
+                Check out some of my latest projects with creative ideas.
+              </p>
+            </div>
+            <button class="btn pulsate-fwd">See All Projects</button>
+          </div>
+
+          <ul class="grid-items">
+                <li class="card1">
+                    <div>
+                        <p class="scard-title">Web Design</p>
+                        <h3 class="scard-subt">Snowlake Theme</h3>
+                        <p class="scard-p">Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
+                            porta felis euismod semper. Fusce dapibus tellus cursus.</p>
+                            <span class="span">See Project</span>
+                    </div>
+                    <figure class="card-banner">
+                      <img src="./assets/images/project-1.png" width="650" height="370" loading="lazy" alt="Web Design"
+                        class="w-100">
+                    </figure>
+                </li>
+                
+                <li class="card2">
+                    <figure class="card-banner">
+                      <img src="./assets/images/project-2.png" width="650" height="370" loading="lazy" alt="Web Design"
+                        class="w-100">
+                    </figure>
+                    <div>
+                        <p>Mobile Design</p>
+                        <h3>Budget App</h3>
+                        <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
+                            porta felis euismod semper. Fusce dapibus tellus cursus.</p>
+                            <span class="span">See Project</span>
+                    </div>
+                </li>
+                
+                <li class="card3">
+                    <div>
+                        <p>Web Design</p>
+                        <h3>Missio Theme</h3>
+                        <p>Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta lobortis. Scelerisque
+                            id ligula felis.</p>
+                            <span class="span">See Project</span>
+                    </div>
+                    <figure class="card-banner">
+                      <img src="./assets/images/project-3.png" width="650" height="370" loading="lazy" alt="Web Design"
+                        class="w-100">
+                    </figure>
+                </li>
+                
+                <li class="card4">
+                    <div>
+                        <p>Web Design</p>
+                        <h3>Storage App</h3>
+                        <p>Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta lobortis. Scelerisque
+                            id ligula felis.</p>
+                            <span class="span">See Project</span>
+                    </div>
+                    <figure class="card-banner">
+                      <img src="./assets/images/project-4.png" width="650" height="370" loading="lazy" alt="Web Design"
+                        class="w-100">
+                    </figure>
+                </li>
+          </ul>
+      </section>
 
 </body>
 

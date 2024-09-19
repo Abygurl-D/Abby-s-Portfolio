@@ -63,12 +63,29 @@ nav {
   font-size: 16px;
 }
 
+
+.btns{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
 .btn1 {
-  background-color: rgb(175, 13, 62);
-    color: white;
+  background-color:white;
+    color: #C1125A;
     padding: 10px  20px;
-    border-radius: 20px; 
+    border-radius: 10px; 
     cursor: pointer;  
+    font-weight: bold;
+}
+.btn2 {
+  background-color:#C1125A;
+    color:white ;
+    padding: 10px  20px;
+    border-radius: 10px; 
+    cursor: pointer;  
+    font-weight: bold;
 }
 
 /*-----------------------------------*\
@@ -190,77 +207,14 @@ nav {
   align-items: center;
   padding-left: 20px;
 }
-
-/*-----------------------------------*\
-    #PROJECTS
-  \*-----------------------------------*/
-
-.project {
-  border-block: 1px solid var(--cadet-blue-crayola_a20);
-}
-
-.project .title-wrapper {
-  margin-block-end: 40px;
-}
-
-.project .btn {
-  margin-block-start: 24px;
-}
-
-.project .grid-list {
-  gap: 40px;
-}
-
-.project-card {
-  --padding: 24px;
-
-  display: flex;
-  flex-direction: column;
-  gap: var(--padding);
-  border-radius: var(--radius-8);
-  overflow: hidden;
-}
-
-.project-card-1,
-.project-card-2,
-:is(.project-card-3, .project-card-4) .card-content {
-  padding: var(--padding);
-}
-
-.project-card-1 {
-  padding-block-end: 0;
-}
-
-.project :is(.project-card-3, .project-card-4) {
-  gap: 0;
-}
-
-.project-card .card-tag {
-  font-size: var(--fs-8);
-  font-weight: var(--fw-700);
-  text-transform: uppercase;
-}
-
-.project-card .card-title {
-  margin-block: 16px;
-}
-
-.project-card .card-text {
-  margin-block-end: 20px;
-}
-
-.project-card .btn-text {
-  display: flex;
+.grid-items {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  column-gap: 30px;
   align-items: center;
-  gap: 5px;
-  font-weight: var(--fw-700);
-  transition: var(--transition-1);
+  padding: 50px;
 }
-
-.project-card .btn-text:is(:hover, :focus-visible) {
-  gap: 10px;
-}
-
+   
 .tracking-in-contract {
   -webkit-animation: tracking-in-contract 2s ease-in-out 1s infinite both;
   animation: tracking-in-contract 2s ease-in-out 1s infinite both;
