@@ -30,7 +30,7 @@
     text-transform:capitalize;
     padding: 50px;
     border-radius: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .card2{
     display: grid;
@@ -39,26 +39,26 @@
     gap: 40px;
     background-color: #F1F5FD;
     width: 100%;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding: 50px;
     border-radius: 40px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .card3{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
     background-color: #f5faf7;
     width: 100%;
     margin: 0;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .card4{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
     background-color: #fcf4f6;
     width: 100%;
     margin: 0;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 
@@ -66,7 +66,6 @@
     color: #A07CC5;
     font-size: 1rem;
     font-weight: bold;
-    /* font-family: 'Times New Roman', Times, serif; */
     padding-bottom: 10px;
 }
 
@@ -87,4 +86,21 @@
     font-weight: bold;
 }
 
+/* card 2 */
+.scard-title1{
+    color: #2FA4FE;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.scard-span1{
+    color:#2FA4FE;
+    font-weight: bold; 
+}
+
+.card-banner{
+  width: 100%;
+  background-size: contain;
+}
 
