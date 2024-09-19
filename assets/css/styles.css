@@ -27,7 +27,7 @@
     gap: 40px;
     background-color: #F1F5FD;
     width: 100%;
-    text-transform: uppercase;
+    text-transform:capitalize;
     padding: 50px;
     border-radius: 40px;
     margin-bottom: 30px;
@@ -63,20 +63,28 @@
 
 
 .scard-title{
-    color: #a07cc5;
+    color: #A07CC5;
+    font-size: 1rem;
     font-weight: bold;
-    font: 1em sans-serif;
-    padding-bottom: 30px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    padding-bottom: 10px;
 }
 
 .scard-subt{
     color: #343E51;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .scard-p{
-    color: #5e484e;
+    color: #5227a7;
     padding-bottom: 30px;
+}
+
+.scard-span{
+    color:#A07CC5;
+    font-weight: bold;
 }
 
 
