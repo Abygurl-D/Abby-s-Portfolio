@@ -214,6 +214,20 @@ nav {
   align-items: center;
   padding: 50px;
 }
+
+.footer-socials {
+  display: flex;
+  column-gap: 30px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-right: 40px;
+  color:rgb(240, 99, 141);
+  padding-bottom: 80px;
+}
    
 .tracking-in-contract {
   -webkit-animation: tracking-in-contract 2s ease-in-out 1s infinite both;
